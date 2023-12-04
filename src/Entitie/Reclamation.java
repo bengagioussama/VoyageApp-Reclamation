@@ -26,6 +26,14 @@ public class Reclamation {
         this.description = description;
     }
 
+    public Reclamation(Date dateReclamation, String objet, String description, Etat etat) {
+        this.dateReclamation = dateReclamation;
+        this.objet = objet;
+        this.description = description;
+        this.etat = etat;
+    }
+
+
 
     public long getId() {
         return id;
